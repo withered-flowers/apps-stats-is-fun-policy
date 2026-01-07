@@ -1,16 +1,131 @@
 ---
-
+import Layout from "../layouts/Layout.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Stats is Fun - Learn Statistics Easily">
+	<div class="bg-gradient-to-b from-indigo-50 to-white overflow-hidden">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-24 text-center">
+			<h1 class="animate-slide-up text-5xl md:text-6xl font-extrabold text-slate-900 tracking-tight mb-6">
+				Stats is <span class="text-indigo-600">Fun</span>
+			</h1>
+			<p class="animate-slide-up delay-100 text-xl md:text-2xl text-slate-600 max-w-3xl mx-auto mb-10 leading-relaxed">
+				Master statistics with bite-sized lessons and interactive examples. 
+				<br class="hidden sm:block" />
+				You can learn about statistics with just a little bit of knowledge.
+			</p>
+			<div class="animate-slide-up delay-200 flex justify-center gap-4">
+				<a href="#" class="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 transition-all transform hover:scale-105">
+					Download Now
+				</a>
+				<a href="#why-choose" class="inline-flex items-center px-8 py-3 border border-slate-300 text-base font-medium rounded-full text-slate-700 bg-white hover:bg-slate-50 transition-all">
+					Learn More
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="why-choose" class="py-24 bg-white border-b border-slate-100">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<div class="text-center mb-16 animate-fade-in delay-300">
+				<h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Why Choose Us</h2>
+				<p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-slate-900 sm:text-4xl">
+					Making Statistics Accessible
+				</p>
+			</div>
+
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+				<div class="text-center animate-slide-up delay-100">
+					<div class="flex items-center justify-center h-16 w-16 rounded-full bg-indigo-100 text-indigo-600 mx-auto mb-6">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+						</svg>
+					</div>
+					<h3 class="text-lg leading-6 font-medium text-slate-900 mb-2">Bite-sized Learning</h3>
+					<p class="text-slate-500">
+						Complex concepts broken down into easy-to-digest lessons that you can finish in minutes.
+					</p>
+				</div>
+
+				<div class="text-center animate-slide-up delay-200">
+					<div class="flex items-center justify-center h-16 w-16 rounded-full bg-indigo-100 text-indigo-600 mx-auto mb-6">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+						</svg>
+					</div>
+					<h3 class="text-lg leading-6 font-medium text-slate-900 mb-2">Interactive Visuals</h3>
+					<p class="text-slate-500">
+						Don't just read about stats—play with parameters and see the results change in real-time.
+					</p>
+				</div>
+
+				<div class="text-center animate-slide-up delay-300">
+					<div class="flex items-center justify-center h-16 w-16 rounded-full bg-indigo-100 text-indigo-600 mx-auto mb-6">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+						</svg>
+					</div>
+					<h3 class="text-lg leading-6 font-medium text-slate-900 mb-2">Completely Free</h3>
+					<p class="text-slate-500">
+						Access all content without paywalls. Education should be accessible to everyone.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="features" class="py-20 bg-slate-50">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<div class="text-center mb-16 animate-fade-in delay-300">
+				<h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Under the Hood</h2>
+				<p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-slate-900 sm:text-4xl">
+					Built with Modern Tech
+				</p>
+				<p class="mt-4 max-w-2xl text-xl text-slate-500 mx-auto">
+					Detailed stats for the tech enthusiasts.
+				</p>
+			</div>
+
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+				<!-- Feature 1 -->
+				<div class="animate-slide-up delay-100 bg-slate-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
+					<div class="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center mb-6">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+						</svg>
+					</div>
+					<h3 class="text-xl font-bold text-slate-900 mb-3">Flutter</h3>
+					<p class="text-slate-600">
+						Built with Flutter for a beautiful, natively compiled application on mobile, web, and desktop from a single codebase.
+					</p>
+				</div>
+
+				<!-- Feature 2 -->
+				<div class="animate-slide-up delay-200 bg-slate-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
+					<div class="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center mb-6">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+						</svg>
+					</div>
+					<h3 class="text-xl font-bold text-slate-900 mb-3">Signals</h3>
+					<p class="text-slate-600">
+						Powered by Signals for reactive state management, ensuring smooth and efficient updates across the app.
+					</p>
+				</div>
+
+				<!-- Feature 3 -->
+				<div class="animate-slide-up delay-300 bg-slate-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
+					<div class="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center mb-6">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 7m0 13V7" />
+						</svg>
+					</div>
+					<h3 class="text-xl font-bold text-slate-900 mb-3">GoRouter</h3>
+					<p class="text-slate-600">
+						Navigated using GoRouter for robust and declarative routing, making deep linking and navigation a breeze.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</Layout>
+
